@@ -1,0 +1,39 @@
+{
+  "name": "echarts-ssr",
+  "version": "0.0.1",
+  "description": "echarts server side rendering using node-canvas",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrinurarief/echarts-ssr.git"
+  },
+  "keywords": [
+    "echarts",
+    "ssr",
+    "server side render"
+  ],
+  "author": "Andri Nur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrinurarief/echarts-ssr/issues"
+  },
+  "homepage": "https://github.com/andrinurarief/echarts-ssr#readme",
+  "devDependencies": {
+    "@types/echarts": "^4.4.3",
+    "@types/jsdom": "^16.1.1",
+    "@types/node": "^12.12.31",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "echarts": "^4.7.0",
+    "jsdom": "^16.2.1"
+  }
+}
